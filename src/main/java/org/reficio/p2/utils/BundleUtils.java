@@ -18,11 +18,13 @@
  */
 package org.reficio.p2.utils;
 
-import aQute.lib.osgi.Analyzer;
-import aQute.lib.osgi.Jar;
+
 import org.apache.felix.bundleplugin.BundlePlugin;
 import org.apache.maven.artifact.DefaultArtifact;
 import org.reficio.p2.resolver.maven.Artifact;
+
+import aQute.bnd.osgi.Analyzer;
+import aQute.bnd.osgi.Jar;
 
 import java.io.File;
 import java.io.IOException;
